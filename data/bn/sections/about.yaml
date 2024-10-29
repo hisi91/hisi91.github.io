@@ -1,6 +1,6 @@
 # section information
 section:
-  name: আমার-সম্পর্কে
+  name: Moi
   id: about
   enable: true
   weight: 1
@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Sénior DEVOPS BIG DATA 
 # your company information
 company:
   name: Example Co.
