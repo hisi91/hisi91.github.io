@@ -13,59 +13,126 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
+- name: Devops
+  filter: "devops"
+- name: "Bigdata"
+  filter: "bigdata"
 - name: Language
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: "Cloud"
+  filter: "cloud"
+- name: "Other"
+  filter: "other"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+- name: KAFKA
+  logo: /images/sections/skills/Apache_kafka.svg
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  categories: ["bigdata"]
+  url: "https://kubernetes.io/"
+
+- name: CDP
+  logo: /images/sections/skills/cloudera.png
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  categories: ["bigdata"]
+  url: "https://kubernetes.io/"
+
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
   summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
+  categories: ["other"]
   url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
+- name: Python
+  logo: /images/sections/skills/python-logo-only.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
+  categories: ["devops", "language"]
   url: "https://golang.org/"
 
-- name: Cloud Computing
+- name: Azure
   logo: /images/sections/skills/cloud.png
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  categories: ["cloud"]
+
+- name: IBM Cloud
+  logo: /images/sections/skills/cloud.png
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  categories: ["cloud"]
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
+  categories: ["other"]
   url: "https://www.docker.com/"
 
 - name: Prometheus
   logo: /images/sections/skills/prometheus.png
   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
+  categories: ["other"]
+  url: "https://prometheus.io/"
+
+- name: GRAFANA
+  logo: /images/sections/skills/grafana.png
+  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  categories: ["other"]
+  url: "https://prometheus.io/"
+
+- name: Splunk
+  logo: /images/sections/skills/prometheus.png
+  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  categories: ["other"]
+  url: "https://prometheus.io/"
+
+- name: Airflow
+  logo: /images/sections/skills/prometheus.png
+  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  categories: ["bigdata"]
   url: "https://prometheus.io/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  categories: ["other"]
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+  categories: ["language"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
+- name: Ansible
+  logo: /images/sections/skills/Ansible_logo.png
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  categories: ["devops", "language"]
+  
+- name: Gitlab-ci
+  logo: /images/sections/skills/git.png
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["devops", "language"]
+
+- name: Jenkins
+  logo: /images/sections/skills/Jenkins_logo.svg.webp
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["devops", "language"]
+
+- name: Terraform
+  logo: /images/sections/skills/tf.png
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["devops", "language"]
+
+- name: AWX
+  logo: /images/sections/skills/Ansible_logo.png
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["devops", "language"]
+
+- name: GitHUB
+  logo: /images/sections/skills/github.png
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["devops", "language"]
+
+- name: GitLab
+  logo: /images/sections/skills/git.png
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["devops", "language"]

@@ -11,63 +11,85 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
+    name: SOCIETE GENERALE RESG
     url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
+    location: LES DUNES au Val de fontenay
+    logo: /images/sections/experiences/company4.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: En tant que Data Engineer/DevOps dans un contexte anglophone, je me suis spécialisé dans la migration de la plateforme HDP vers CDP pour la Société Générale à Val de Fontenay. Ma palette de compétences englobe Cloudera Data Platform 7.1.7 avec de l’expertise dans HDFS, Yarn, Kafka, Hive, Cloudera Manager, Ranger, Oozie, Nifi, ZooKeeper, Spark, et Airflow.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Senior BIG DATA DEVOPS
+    start: Fev 2021
+    end: Oct 2024
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Migration HDP vers CDP
+    - Optimisation des opérations grâce à l'automatisation via Ansible/AWX,
+    - Collaboration efficace avec le socle Git/GitHub
+    - Migration des outils de dev sur des pods K8S
+    - Maîtrise des développements en Python
+    - Développement des scripts Redhat/bash pour la migration
+    - Montée de version des outils internes SG
+    - WHATS (Annuaire de gestion des rôles et accès des projets)
+    - AWX (Mise à jour des jobs AWX et des rôles Ansible)
+    - Maitrise de JIRA, VAULT, Confluence, GitHub pages, Support
+    - Garantir le bon fonctionnement de la plateforme Big Data
+    - Assurer le bon fonctionnement de applications projets
+    - Gestion d’incidents et de changements
+    - Astreintes
+    - Gestion des incidents complexes
+    - Développement des rôles Ansible pour création de certificats SSL et le patch des topics Kafka
+    - Développement des rôles Ansible pour des tests de production/consommation sur de topics
+    - Gestion d'incidents et participation au support N1/N2
+    - Conseils et recommandations aux équipes projets
+    - Formation et workshop pour les intégrateurs BIGDATA à Paris et Bangalore
+    - Documentation et reporting des différents processus d'utilisation de Kafka
+    - Accompagnement de projets pour la consommation et production de messages depuis et vers les Process groupes NIFI
 
 - company:
-    name: PreExample Co.
+    name: BNP BP2I
     url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
+    location: VALMY à Montreuil
+    logo: /images/sections/experiences/company5.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Au sein de l’équipe devops sur un projet KAFKA confluent, j’avais en charge la bonne gestion des clusters KAFKA.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: BIG DATA DEVOPS
+    start: Nov 2018
+    end: Sep 2020
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Contribuer à l'industrialisation du déploiement et de la maintenance de l'offre Kafka Confluent sur des VMs
+    - Automatisation de la création et la gestion des Topics/ACLs/Quotas/Schemas avec Ansible
+    - Résolution des incidents/traitements des demandes clients sur les Environnement DEV/HOMOL/PROD
+    - Mise à jour des composants des clusters et réalisation des tests de charge/résiliance et des benchs
+    - Créations des Dashboard Splunk pour la supervision des Clusters Kafka et intégration de flux JMX vers les métiers
+    - Contribuer à l’amélioration de la chaîne CI/CD pour le déploiement et la mise à jour des clusters Kafka Confluent.
+    - Conseil/Recommandation/Expertise des paramétrages utilisés pour optimiser les performances des clusters Kafka
+    - Rédaction des PV de recette et des documents sur Confluence et Wiki Teams, et réalisation des rapports journaliers de l’état des clusters de prod
+    - Participer à l’amélioration de l’offre Kafka par l’intégration de nouveaux éléments comme Kafka Connect et Kafka Stream.
+    - Contribuer à l'industrialisation du déploiement de clusters Kafka Event Streams sur le cloud IBM
+    - Gestion d’incidents et participation au support N2/N3 du Kafka Confluent et des équipes de développement et de data science
+    - Astreintes pour assurer le fonctionnement permanent de la Production
 
 - company:
-    name: Intern Counting Company (ICC).
+    name: CATS.
     url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
+    location: PAU
+    logo: /images/sections/experiences/company6.png
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    overview: Au sein de l’équipe BIG DATA, j’avais en mission l’installation et la migration de clusters ZERO BIG DATA Hortonworks 2.5 vers 2.6 et la Kerbirisation du cluster dans un Domain active directory.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Alternant BIG DATA
+    start: OCT 2017
+    end: OCT 2018
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Approvisionnement des VMs qui vont accueillir les services HDP et Installation de HDP 2.5 avec AMBARI
+    - Installation/Mise à jour des packages R et redhat sur les VM à la destination des Dev.
+    - Développement des scripts Python et Shell de purge périodique des données sur HDFS.
+    - Résolution des incidents/ traitements des demandes clients

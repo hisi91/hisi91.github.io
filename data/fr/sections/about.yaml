@@ -56,24 +56,34 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: Confluent Certified Administrator for Apache Kafka
+  url: "https://www.credential.net/0780b049-ee22-4a3d-b3b6-f04778da7baa#gs.guuea8"
+  badge: "https://api.accredible.com/v1/credential/generate_baked_badge?credential_id=14562421&__hstc=36082943.3f6dd9f9f0e131f3e5362f7f6575d7bb.1730294547491.1730294547491.1730294547491.1&__hssc=36082943.1.1730294547492&__hsfp=3227366388&_gl=1*1gy6a44*_gcl_au*MTcwMTE1NTI3MC4xNzMwMjk0NTQ2*_ga*Mjk1NzAwNjI5LjE3MzAyOTQ1NDc.*_ga_FSDJZHHBH0*MTczMDI5NDU0Ni4xLjAuMTczMDI5NDU0Ni42MC4wLjE3OTE2MjM2NTU."
+
+- type: certification
+  name: Confluent Certified Developer for Apache Kafka
+  url: "hhttps://www.credential.net/93eabeaa-5fca-4c36-a6a4-dc9248701139#gs.guumi1#acc.xtfSVen1"
+  badge: "https://api.accredible.com/v1/credential/generate_baked_badge?credential_id=23956313&_gl=1*mrx7t8*_gcl_au*MTcwMTE1NTI3MC4xNzMwMjk0NTQ2*_ga*Mjk1NzAwNjI5LjE3MzAyOTQ1NDc.*_ga_FSDJZHHBH0*MTczMDI5NDU0Ni4xLjEuMTczMDI5NDc5MS4zMy4wLjE3OTE2MjM2NTU."
+
+- type: soft-skill-indicator
+  name: KAFKA
+  percentage: 95
+  color: red
+
+- type: soft-skill-indicator
+  name: CDP
+  percentage: 80
+  color: green
+
+- type: soft-skill-indicator
+  name: DEVOPS
+  percentage: 85
+  color: yellow
 
 - type: soft-skill-indicator
   name: Leadership
   percentage: 85
   color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
