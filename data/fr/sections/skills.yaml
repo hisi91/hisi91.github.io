@@ -29,110 +29,126 @@ buttons:
 skills:
 - name: KAFKA
   logo: /images/sections/skills/Apache_kafka.svg
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Expérimenté dans le déploiement et la gestion de clusters Kafka et d’applications. Compétent en connecteurs Kafka, Schema Registry, Kafka Streams et KSQL."
   categories: ["bigdata"]
-  url: "https://kubernetes.io/"
+  url: "https://kafka.apache.org/"
 
 - name: CDP
   logo: /images/sections/skills/cloudera.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Expérience dans la gestion de clusters de données avec Cloudera Data Platform (CDP) pour le traitement et le stockage de données volumineuses."
   categories: ["bigdata"]
-  url: "https://kubernetes.io/"
+  url: "https://www.cloudera.com/products/cloudera-data-platform.html"
 
 - name: Kubernetes
   logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  summary: "Expérimenté dans le déploiement et la gestion d’applications sur Kubernetes. Compétent dans l’écriture de contrôleurs Kubernetes pour des définitions de ressources personnalisées (CRD)."
   categories: ["other"]
   url: "https://kubernetes.io/"
 
+- name: NiFi
+  logo: /images/sections/skills/cloudera.png
+  summary: "Expérience dans la gestion des flux de données avec Apache NiFi, y compris la création, le déploiement et la surveillance de pipelines de traitement de données. Compétent dans l'intégration avec d'autres services Big Data pour le transfert, la transformation et l'acheminement des données en temps réel."
+  categories: ["bigdata"]
+  url: "https://nifi.apache.org/"
+
 - name: Python
   logo: /images/sections/skills/python-logo-only.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "Langage principal de développement. Compétent dans l’écriture de programmes évolutifs, testables et maintenables en Python."
   categories: ["devops", "language"]
-  url: "https://golang.org/"
+  url: "https://www.python.org/"
 
 - name: Azure
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Expérience avec les principales plateformes cloud, notamment Azure, AWS et GCP, pour l’infrastructure et les services cloud."
   categories: ["cloud"]
+  url: "https://azure.microsoft.com/"
 
 - name: IBM Cloud
   logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Expérience avec IBM Cloud pour des solutions et infrastructures cloud, ainsi qu’avec d’autres fournisseurs majeurs comme AWS et GCP."
   categories: ["cloud"]
+  url: "https://www.ibm.com/cloud/"
 
 - name: Docker
   logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "Expérience dans la containerisation d’applications avec Docker, y compris les processus de build multi-stage et multi-architecture."
   categories: ["other"]
   url: "https://www.docker.com/"
 
 - name: Prometheus
   logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  summary: "Compétent dans la configuration et le paramétrage de Prometheus pour la surveillance des métriques, avec une expérience en PromQL, AlertManager et en création d’exportateurs de métriques personnalisés."
   categories: ["other"]
   url: "https://prometheus.io/"
 
 - name: GRAFANA
   logo: /images/sections/skills/grafana.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  summary: "Expérience dans la configuration de tableaux de bord Grafana pour la surveillance et les alertes, en intégration avec Prometheus et d'autres sources de données."
   categories: ["other"]
-  url: "https://prometheus.io/"
+  url: "https://grafana.com/"
 
 - name: Splunk
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  logo: /images/sections/skills/splunk.png
+  summary: "Compétent dans la configuration de Splunk pour la gestion des logs et la surveillance, avec une expérience dans la création de tableaux de bord et d’alertes."
   categories: ["other"]
-  url: "https://prometheus.io/"
+  url: "https://www.splunk.com/"
 
 - name: Airflow
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+  logo: /images/sections/skills/airflow.png
+  summary: "Expérience dans l’orchestration de workflows avec Apache Airflow, y compris la création de DAG, la planification et la gestion des tâches."
   categories: ["bigdata"]
-  url: "https://prometheus.io/"
+  url: "https://airflow.apache.org/"
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Système d'exploitation principal pour le développement. Compétent dans l’écriture de scripts bash/shell pour l’automatisation et la gestion système."
   categories: ["other"]
+  url: "https://www.linux.org/"
 
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["language"]
+  summary: "Maîtrise du contrôle de version avec Git, en utilisant GitHub et GitLab pour la collaboration et la gestion de code."
+  categories: ["devops"]
   url: "https://git-scm.com/"
 
 - name: Ansible
   logo: /images/sections/skills/Ansible_logo.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["devops", "language"]
-  
-- name: Gitlab-ci
+  summary: "Expérience dans l'utilisation d'Ansible pour la gestion de configuration et l'automatisation de l'infrastructure."
+  categories: ["devops"]
+  url: "https://www.ansible.com/"
+
+- name: GitLab CI
   logo: /images/sections/skills/git.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["devops", "language"]
+  summary: "Compétent dans la configuration de pipelines CI/CD avec GitLab CI pour les tests et déploiements automatisés."
+  categories: ["devops"]
+  url: "https://about.gitlab.com/product/continuous-integration/"
 
 - name: Jenkins
   logo: /images/sections/skills/Jenkins_logo.svg.webp
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["devops", "language"]
+  summary: "Expérience dans la configuration de pipelines Jenkins pour l'intégration et le déploiement continus (CI/CD)."
+  categories: ["devops"]
+  url: "https://www.jenkins.io/"
 
 - name: Terraform
   logo: /images/sections/skills/tf.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["devops", "language"]
+  summary: "Compétent dans l'utilisation de Terraform pour l'infrastructure en tant que code, le provisionnement et la gestion de ressources cloud."
+  categories: ["devops"]
+  url: "https://www.terraform.io/"
 
 - name: AWX
   logo: /images/sections/skills/Ansible_logo.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["devops", "language"]
+  summary: "Expérience dans l'utilisation d'AWX pour l'automatisation Ansible, y compris la gestion des playbooks et l'exécution des tâches."
+  categories: ["devops"]
+  url: "https://github.com/ansible/awx"
 
-- name: GitHUB
+- name: GitHub
   logo: /images/sections/skills/github.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["devops", "language"]
+  summary: "Expérience dans le contrôle de version avec GitHub, en l’utilisant pour la collaboration de projet et les contributions open-source."
+  categories: ["devops"]
+  url: "https://github.com/"
 
 - name: GitLab
   logo: /images/sections/skills/git.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["devops", "language"]
+  summary: "Maîtrise de GitLab pour le contrôle de version et les pipelines CI/CD en environnement d'équipe."
+  categories: ["devops"]
+  url: "https://about.gitlab.com/"

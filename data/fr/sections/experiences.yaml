@@ -12,7 +12,7 @@ section:
 experiences:
 - company:
     name: SOCIETE GENERALE RESG
-    url: "https://www.example.com"
+    url: "https://particuliers.sg.fr/"
     location: LES DUNES au Val de fontenay
     logo: /images/sections/experiences/company4.png
     # Can optionally show a different logo for dark theme
@@ -52,7 +52,7 @@ experiences:
 
 - company:
     name: BNP BP2I
-    url: "https://www.example.com"
+    url: "https://mabanque.bnpparibas/"
     location: VALMY à Montreuil
     logo: /images/sections/experiences/company5.png
     # Can optionally show a different logo for dark theme
@@ -78,7 +78,7 @@ experiences:
 
 - company:
     name: CATS.
-    url: "https://www.example.com"
+    url: "https://www.credit-agricole.com/marques-et-metiers/toutes-nos-marques/credit-agricole-technologies-et-services"
     location: PAU
     logo: /images/sections/experiences/company6.png
     # Can optionally show a different logo for dark theme

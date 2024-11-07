@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: BIGDATA Devops
+designation: Sénior BIG DATA DEVOPS
 # your company information
 company:
   name: SG.
@@ -19,14 +19,14 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Je suis Yassine, Sénior BIG DATA DEVOPS passionné basé à Ile de France. Avec plus de 6 années d'expérience dans le domaine. Les infra bigdata, system distribué et devops sont les sujets sur lesquels je peux vous accompagner."
+summary: "Je suis Yassine, Sénior BIG DATA DEVOPS passionné basé à Ile de France. Avec plus de 7 années d'expérience dans le domaine. Les infra bigdata, system distribué et devops sont les sujets sur lesquels je peux vous accompagner."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "sihi.yassine@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
@@ -34,21 +34,17 @@ socialLinks:
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://stackoverflow.com/users/7625684/hisi"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Freework
-  icon: "fab fa-twitter"
-  url: "#"
+  url: "https://www.linkedin.com/in/yassine-sihi-44b282106/"
 
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
+- title: "Mon CV"
   url: "files/resume.pdf"
 
 # Show your badges
